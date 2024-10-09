@@ -13,7 +13,7 @@ def index():
     server.start()
     
     # Embed the Panel app in the HTML template using the Bokeh server_document function
-    script = server_document("https://github.com/ferrazbenedito/app_valor_areas/blob/main/panel_app.py")
+    script = server_document("http://localhost:5006")
 
     return render_template('index.html', script=script)
 
