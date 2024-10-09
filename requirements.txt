@@ -1,0 +1,6 @@
+flask
+panel
+bokeh
+gunicorn
+pandas
+numpy
